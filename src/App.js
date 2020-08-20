@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './safertracerlogo.js';
+import logo from './safertracerlogo.PNG';
 import './App.css';
 import { withAuthenticator } from 'aws-amplify-react'
 import Amplify, { Auth } from 'aws-amplify';
