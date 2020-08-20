@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src="src/safertracerlogo.PNG" className="App-logo" alt="logo" />
+          <img src="https://raw.githubusercontent.com/BrendanORAS/create-react-app-auth-amplify/master/src/safertracerlogo.PNG" className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload. I want to cry send help
           </p>
