@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src="./safertracerlogo.PNG" className="App-logo" alt="logo" />
+          <img src="src/safertracerlogo.PNG" className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload. If this appears, then editing has been successful.
           </p>
