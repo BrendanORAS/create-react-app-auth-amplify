@@ -13,7 +13,7 @@ class App extends Component {
         <header className="App-header">
           <img src="src/safertracerlogo.PNG" className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload. If this appears, then editing has been successful.
+            Edit <code>src/App.js</code> and save to reload. I want to cry send help
           </p>
           <a
             className="App-link"
