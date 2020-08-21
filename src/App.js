@@ -1,32 +1,26 @@
-import React, { Component } from 'react';
-import logo from './safertracerlogo.PNG';
-import './App.css';
-import { withAuthenticator } from 'aws-amplify-react'
-import Amplify, { Auth } from 'aws-amplify';
-import aws_exports from './aws-exports';
-Amplify.configure(aws_exports);
+<HTML><TITLE>Farrer Park Hospital</TITLE>
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src="https://raw.githubusercontent.com/BrendanORAS/create-react-app-auth-amplify/master/src/safertracerlogo.PNG" className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload. I want to cry send help
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            I hate my life, click here to learn how to react to such statements
-          </a>
-        </header>
-      </div>
-    );
-  }
+<head>
+<script>
+function CheckIn() {
+  window.location.assign("https://safertracerfarrerpark.s3.amazonaws.com/checkin.html")
 }
 
-export default withAuthenticator(App, true);
+function CheckOut() {
+  window.location.assign("https://safertracerfarrerpark.s3.amazonaws.com/checkout.html")
+}
+
+</script>
+</head>
+
+<BODY>
+<CENTER>
+<IMG src="https://safertracerfarrerpark.s3.amazonaws.com/safertracerlogo.PNG" width="10%" height="10%"><BR><BR><BR>
+
+<input type="button" value="Check In" onclick="CheckIn()">
+<BR><BR>
+<input type="button" value="Check Out" onclick="CheckOut()">
+
+</CENTER>
+</BODY>
+</HTML>
