@@ -13,14 +13,7 @@ class App extends Component {
         <header className="App-header">
           <img src={safertracerlogo} className="App-logo" alt="logo" />
       
-          <input type="button" value="Visitor Check In" 
-onclick="location.href = 'https://safertracerfarrerpark.s3.amazonaws.com/checkin.html'" />
 
-<BR><BR>
-
-<input type="button" value="Visitor Check Out" 
-onclick="location.href = 'https://safertracerfarrerpark.s3.amazonaws.com/checkout.html'" />
-      
         </header>
       </div>
     );
