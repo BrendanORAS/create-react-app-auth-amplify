@@ -22,7 +22,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Click Here To Register Your Visit
+            Click Here To Register Your Visit 
           </a>
         </header>
       </div>
