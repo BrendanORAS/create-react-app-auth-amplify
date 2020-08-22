@@ -11,8 +11,16 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />      
-          window.open("https://safertracerfarrerpark.s3.amazonaws.com/index.html")
+          <img src={safertracerlogo} className="App-logo" alt="logo" />
+      
+          <input type="button" value="Visitor Check In" 
+onclick="location.href = 'https://safertracerfarrerpark.s3.amazonaws.com/checkin.html'" />
+
+<BR><BR>
+
+<input type="button" value="Visitor Check Out" 
+onclick="location.href = 'https://safertracerfarrerpark.s3.amazonaws.com/checkout.html'" />
+      
         </header>
       </div>
     );
