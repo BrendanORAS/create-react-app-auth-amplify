@@ -12,9 +12,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />      
-          <script>
-             window.location.assign("https://safertracerfarrerpark.s3.amazonaws.com/index.html")
-          </script>
+          window.open("https://safertracerfarrerpark.s3.amazonaws.com/index.html")
         </header>
       </div>
     );
