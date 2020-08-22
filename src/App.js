@@ -18,7 +18,7 @@ class App extends Component {
           </p>
           <a
             className="App-link"
-            href="https://https://safertracerfarrerpark.s3.amazonaws.com/index.html"
+            href="https://safertracerfarrerpark.s3.amazonaws.com/index.html"
             target="_blank"
             rel="noopener noreferrer"
           >
