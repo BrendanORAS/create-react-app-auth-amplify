@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import logo2 from './safertracerlogo.PNG';
 import './App.css';
 import { withAuthenticator } from 'aws-amplify-react'
 import Amplify, { Auth } from 'aws-amplify';
@@ -11,17 +12,17 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={logo2} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://https://safertracerfarrerpark.s3.amazonaws.com/index.html"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Click Here To Register
           </a>
         </header>
       </div>
