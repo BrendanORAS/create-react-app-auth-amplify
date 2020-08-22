@@ -11,10 +11,10 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            location.replace("https://safertracerfarrerpark.s3.amazonaws.com/index.html")
-          </p>
+          <img src={logo} className="App-logo" alt="logo" />      
+          <script>
+             window.location.assign("https://safertracerfarrerpark.s3.amazonaws.com/index.html")
+          </script>
         </header>
       </div>
     );
